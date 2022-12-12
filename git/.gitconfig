@@ -1,0 +1,13 @@
+[core]
+        editor = vim
+[user]
+        name = mrcaidev
+        email = mrcaidev@gmail.com
+[init]
+        defaultBranch = master
+[pull]
+        rebase = false
+[http]
+        postBuffer = 157286400
+[https]
+        postBuffer = 157286400
