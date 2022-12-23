@@ -8,6 +8,16 @@ alias la="ls -ahlv --color=auto"
 alias mkdir="mkdir -pv"
 alias mv="mv -n"
 alias ping="ping -c 3"
+alias up="sudo pacman -Syu"
+
+clone() {
+    if [[ $1 =~ "/" ]]
+    then
+        git clone git@github.com:$1.git $2
+    else
+        git clone git@github.com:mrcaidev/$1.git $2
+    fi
+}
 
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
