@@ -9,6 +9,7 @@ au FocusGained,BufEnter * checktime
 set nobackup
 set noswapfile
 set noundofile
+set viminfofile=$HOME/.cache/vim/.viminfo
 
 set noerrorbells
 set novisualbell
