@@ -2,6 +2,7 @@
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
+alias cat="bat"
 alias diff="diff --color=auto"
 alias grep="grep --color=auto"
 alias ip="ip -c=auto"
