@@ -1,0 +1,8 @@
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
+[user]
+	name = Yuwang Cai
+	email = mrcaidev@gmail.com
+
