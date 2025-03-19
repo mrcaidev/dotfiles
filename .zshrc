@@ -13,6 +13,7 @@ alias ls="eza --icons"
 alias ll="ls -l"
 alias la="ls -al"
 alias mkdir="mkdir -p"
+alias top="btop"
 
 # completion
 autoload -Uz compinit && compinit
