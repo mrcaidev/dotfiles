@@ -4,9 +4,7 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias cat="bat"
 alias diff="diff --color=auto"
-alias df="duf"
 alias du="dust"
-alias find="fd"
 alias grep="grep --color=auto"
 alias ip="ip -c=auto"
 alias ls="eza --icons"
@@ -41,6 +39,15 @@ bindkey "^[[3~" delete-char
 ZSH_PLUGINS="/usr/share/zsh/plugins"
 source $ZSH_PLUGINS/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $ZSH_PLUGINS/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# proxy
+export http_proxy="http://127.0.0.1:10808"
+export https_proxy="http://127.0.0.1:10808"
+export no_proxy="localhost,127.0.0.1,::1,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16,.internal"
+export HTTP_PROXY=$http_proxy
+export HTTPS_PROXY=$https_proxy
+export NO_PROXY=$no_proxy
+alias unproxy="unset http_proxy https_proxy no_proxy HTTP_PROXY HTTPS_PROXY NO_PROXY"
 
 # starship
 eval "$(starship init zsh)"
