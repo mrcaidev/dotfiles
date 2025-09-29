@@ -51,7 +51,6 @@
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.shellIntegration.decorationsEnabled": "never",
   "terminal.integrated.smoothScrolling": true,
-  "typescript.preferences.preferTypeOnlyAutoImports": true,
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.empty.hint": "hidden",
   "workbench.iconTheme": "material-icon-theme",
